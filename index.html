@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#100d20">
+<title>Wishora — Free Digital Wish Designer</title>
+<meta name="description" content="Design free personalized digital wishes with photos, music, surprise reveals and heartfelt words — for birthdays, Eid, Diwali, love notes and every special moment.">
+<!-- Social preview. Replace https://YOUR-DOMAIN.com with your real domain once the site is live — social apps need a full URL for the image. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wishora">
+<meta property="og:title" content="Someone made you a little surprise ✨">
+<meta property="og:description" content="Open your personal wish on Wishora — or create a free one for someone you love.">
+<meta property="og:image" content="https://YOUR-DOMAIN.com/og-image.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://YOUR-DOMAIN.com/og-image.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Pacifico&family=Great+Vibes&family=Montserrat:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#designer">Skip to the wish designer</a>
+<div class="announcement">✦ Every celebration deserves magic — <b>all creative tools are free</b></div>
+<header class="topbar"><a class="brand" href="#"><span class="brand-icon">W</span>wishora<span class="dot">.</span></a>
+<nav id="nav"><a href="#occasions">Occasions</a><a href="#gallery">Examples</a><a href="#designer">Wish designer</a><a href="#how">How it works</a><a href="#faq">FAQ</a></nav>
+<a class="top-cta" href="#designer">Create for free ↗</a><button class="hamb" id="hamb" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button></header>
+<main>
+<section class="hero"><div class="hero-copy"><div class="eyebrow">A LITTLE MAGIC GOES A LONG WAY</div><h1>Make their day<br><em>unforgettable.</em></h1><p>Design a personal digital surprise with photos, music, animations and heartfelt words. Make it yours, then share the happiness.</p><div class="hero-buttons"><a class="btn primary" href="#designer">Start creating <span>→</span></a><a class="plain-link" href="#gallery">See examples ↓</a></div><div class="hero-foot">♡ 100% free to create <span>·</span> No sign-up <span>·</span> No design skills needed</div></div>
+<div class="hero-visual" aria-hidden="true"><div class="halo"></div><div class="hero-gift"><small>A LITTLE SURPRISE</small><div>🎁</div><strong>You make life<br><em>more beautiful.</em></strong><small>MADE WITH LOVE · WISHORA</small></div><span class="float f1">just for you ♡</span><span class="float f2">✨ a special moment</span><span class="spark s1">✦</span><span class="spark s2">♡</span></div></section>
+<div class="marquee" aria-hidden="true"><div class="marquee-track">BIRTHDAYS　✦　EID MUBARAK　✦　LOVE NOTES　✦　DIWALI　✦　ANNIVERSARIES　✦　HOLI　✦　NEW YEAR　✦　JUST BECAUSE　✦　BIRTHDAYS　✦　EID MUBARAK　✦　LOVE NOTES　✦　DIWALI　✦　ANNIVERSARIES　✦　HOLI　✦　NEW YEAR　✦　JUST BECAUSE　✦　</div></div>
+
+<section class="section" id="occasions"><div class="section-head"><div><div class="eyebrow">FIND YOUR REASON</div><h2>Every occasion,<br><em>made personal.</em></h2></div><p>Choose a moment and we'll set up a ready-made design you can make your own.</p></div>
+<div class="occasion-grid">
+<button class="occasion birthday" data-occ="Birthday"><span>🎂</span><b>Birthday</b><small>Make a wish come true</small></button>
+<button class="occasion romance" data-occ="Love"><span>💌</span><b>Love & romance</b><small>Say what your heart feels</small></button>
+<button class="occasion eid" data-occ="Eid Mubarak"><span>🌙</span><b>Eid Mubarak</b><small>Blessings for Eid ul-Fitr & ul-Adha</small></button>
+<button class="occasion festival" data-occ="Diwali"><span>🪔</span><b>Diwali</b><small>Light up someone's day</small></button>
+<button class="occasion holi" data-occ="Holi"><span>🎨</span><b>Holi</b><small>Splash them with colour</small></button>
+<button class="occasion newyear" data-occ="New Year"><span>🎆</span><b>New Year</b><small>Cheers to a fresh start</small></button>
+<button class="occasion milestone" data-occ="Special Moment"><span>🎓</span><b>Special moments</b><small>Celebrate every new chapter</small></button>
+<button class="occasion thanks" data-occ="Thank You"><span>🌷</span><b>Thank you</b><small>Gratitude, beautifully said</small></button>
+</div></section>
+
+<section class="section gallery-section" id="gallery"><div class="section-head"><div><div class="eyebrow">NEED INSPIRATION?</div><h2>Wishes people<br><em>love to send.</em></h2></div><p>Tap any example to open it in the designer, then change every word, colour and photo.</p></div>
+<div class="gallery" id="galleryGrid"></div></section>
+
+<section class="designer-section" id="designer"><div class="designer-intro"><div class="eyebrow">THE CREATIVE STUDIO</div><h2>Your idea.<br><em>Your personal touch.</em></h2><p>Make every little detail feel like them. Your changes appear instantly in the preview, and your draft is saved on this device.</p><div class="free-note"><span>✦</span><div><b>EVERY TOOL IS FREE</b><small>No locked designs or paid upgrades.</small></div></div><div class="mini-list"><span>✓ Live preview</span><span>✓ Surprise reveals & countdowns</span><span>✓ Download as an image</span><span>✓ Shareable wish link</span><span>✓ Your photos stay on your device</span></div></div>
+<div class="editor">
+<div class="editor-header"><div><small>WISHORA STUDIO / 01</small><h3>Build your wish</h3></div><span class="live"><i></i> AUTOSAVED</span></div>
+<div class="tabs" role="tablist"><button class="tab active" role="tab" aria-selected="true" data-tab="content">Content</button><button class="tab" role="tab" aria-selected="false" data-tab="design">Design</button><button class="tab" role="tab" aria-selected="false" data-tab="media">Photos & music</button><button class="tab" role="tab" aria-selected="false" data-tab="effects">Effects</button></div>
+<div class="panel active" id="panel-content" role="tabpanel">
+<label>Occasion<select id="occasion"></select></label>
+<div class="field-block"><span class="field-label">Start from a design</span><div class="template-chips" id="templateChips"></div></div>
+<div class="two"><label>Recipient name<input id="recipient" maxlength="40" placeholder="Their name"></label><label>Your name<input id="sender" maxlength="40" placeholder="Your name"></label></div>
+<label>Headline<input id="headline" maxlength="65" placeholder="Write a headline"></label>
+<label><span class="label-row">Your message <button type="button" class="inspire" id="inspireBtn">✨ Inspire me</button></span><textarea id="message" maxlength="500" rows="5"></textarea><small class="hint"><span id="charCount">0</span>/500 characters · Urdu, Hindi and Arabic text work too</small></label>
+<label>Personal sign-off<input id="signoff" maxlength="55"></label>
+</div>
+<div class="panel" id="panel-design" role="tabpanel">
+<div class="field-block"><span class="field-label">Choose a layout</span><div class="layout-choices"><button class="layout-choice" data-layout="classic">Classic card</button><button class="layout-choice" data-layout="minimal">Minimal</button><button class="layout-choice" data-layout="scrapbook">Scrapbook</button></div></div>
+<div class="field-block"><span class="field-label">Color theme</span><div class="swatches" id="swatches"></div></div>
+<label>Background style<select id="background"><option value="glow">Soft glow</option><option value="gradient">Smooth gradient</option><option value="solid">Solid color</option><option value="stars">Starry night</option></select></label>
+<div class="two"><label>Heading font<select id="font"><option value="playfair">Elegant serif</option><option value="sans">Modern sans</option><option value="script">Handwritten</option><option value="vibes">Romantic script</option><option value="urdu">Urdu Nastaliq (اردو)</option></select></label><label>Text alignment<select id="align"><option value="center">Center</option><option value="left">Start (left / right)</option></select></label></div>
+<div class="two"><label>Heading size<select id="headingSize"><option value="small">Small</option><option value="medium">Medium</option><option value="large">Large</option></select></label><label>Text size<select id="textSize"><option value="small">Small</option><option value="medium">Medium</option><option value="large">Large</option></select></label></div>
+<label>Writing direction<select id="dir"><option value="auto">Automatic (detects Urdu / Arabic)</option><option value="ltr">Left to right</option><option value="rtl">Right to left</option></select></label>
+<div class="field-block"><span class="field-label">Decorative stickers <span class="subtle">(up to 5)</span></span><div class="sticker-choices" id="stickerChoices"></div></div>
+</div>
+<div class="panel" id="panel-media" role="tabpanel">
+<label>Add photos <span class="subtle">(up to 6 images, 4 MB each)</span><input id="photos" type="file" accept="image/*" multiple><small class="hint">Photos stay in your browser. They appear in the preview and in downloaded images, but not in shared links yet.</small></label>
+<div id="photoThumbs" class="photo-thumbs"></div>
+<label>Background music<select id="music"><option value="none">No music</option><option value="soft">Soft piano</option><option value="celebrate">Celebration chime</option><option value="romantic">Gentle romantic</option><option value="festive">Festive bells</option></select><small class="hint">Original melodies played by your browser — no copyrighted songs. The recipient can tap to play.</small></label>
+<button type="button" class="btn secondary" id="musicBtn">▶ Preview melody</button>
+<label>Video link <span class="subtle">(optional)</span><input id="videoLink" type="url" placeholder="https://youtube.com/…"><small class="hint">Shown as a “Watch the video” button. YouTube links play right inside the wish.</small></label>
+<label>Voice message note <span class="subtle">(optional)</span><input id="voiceNote" maxlength="120" placeholder="e.g. Check WhatsApp — I left you a voice note! 🎙"></label>
+</div>
+<div class="panel" id="panel-effects" role="tabpanel">
+<label>Animation style<select id="animation"><option value="float">Floating sparkle</option><option value="confetti">Confetti</option><option value="hearts">Floating hearts</option><option value="lanterns">Moon & stars</option><option value="none">No animation</option></select></label>
+<label>Surprise reveal<select id="reveal"><option value="none">No reveal</option><option value="gift">Open a gift first</option><option value="envelope">Open a letter first</option><option value="tap">Tap to reveal message</option></select><small class="hint">The recipient sees this first and taps to open their wish.</small></label>
+<label>Event date <span class="subtle">(optional)</span><input type="date" id="eventDate"></label>
+<div class="field-block"><span class="field-label">Extra details</span><div class="check-list"><label><input type="checkbox" id="countdown"> Show a countdown to the event date</label><label><input type="checkbox" id="sparkles"> Show sparkle decoration</label><label><input type="checkbox" id="border"> Add decorative frame</label></div></div>
+</div>
+<div class="editor-actions"><button type="button" class="btn primary" id="playBtn">▶ Play the surprise</button><button type="button" class="btn secondary" id="downloadBtn">⬇ Download image</button></div>
+<div class="editor-sub"><button type="button" class="reset" id="resetBtn">Start over</button><span class="editor-foot">Free to create · No payment · No sign-up</span></div>
+</div>
+<div class="preview-column"><div class="preview-top"><span>LIVE PREVIEW</span><button type="button" class="view-toggle" id="fullBtn">⤢ View as recipient</button></div>
+<div id="previewCard" class="preview-card"></div>
+<div class="share-box"><h3>Ready to share?</h3><p>Each button sends a link that opens your wish, with its reveal, music and countdown.</p><div class="share-grid">
+<button type="button" class="share whatsapp" id="shareWhatsApp"><b>◉</b> WhatsApp</button><button type="button" class="share facebook" id="shareFacebook"><b>f</b> Facebook</button>
+<button type="button" class="share instagram" id="shareInstagram"><b>◎</b> Instagram</button><button type="button" class="share email" id="shareEmail"><b>✉</b> Email</button>
+<button type="button" class="share telegram" id="shareTelegram"><b>➤</b> Telegram</button><button type="button" class="share copy" id="copyShare"><b>🔗</b> Copy link</button>
+</div><button type="button" class="btn secondary full" id="nativeShare">More sharing options ↗</button><p class="share-disclaimer" id="shareStatus">Instagram: we save your card as an image so you can post it to your Story or send it in a DM.</p></div>
+</div></section>
+
+<section class="how section" id="how"><div class="center"><div class="eyebrow">SIMPLE AS THAT</div><h2>Make it. <em>Feel it. Share it.</em></h2><p>Everything you need to make someone's day a little brighter.</p></div><div class="how-grid"><article><b>01</b><span>✦</span><h3>Choose your occasion</h3><p>Pick a moment and start from a ready-made design, or start fresh.</p></article><article><b>02</b><span>♡</span><h3>Make it personal</h3><p>Write from the heart, add photos and music, and choose a surprise reveal.</p></article><article><b>03</b><span>↗</span><h3>Send the surprise</h3><p>Send a link that opens your wish, or download it as an image for Stories and Status.</p></article></div></section>
+
+<section class="section faq-section" id="faq"><div class="center"><div class="eyebrow">GOOD TO KNOW</div><h2>Questions, <em>answered.</em></h2></div>
+<div class="faq">
+<details><summary>Is Wishora really free?</summary><p>Yes. Every design, theme, sticker, reveal and sharing option is free. There are no locked templates, no watermarks to pay off and no sign-up.</p></details>
+<details><summary>How does the person receive my wish?</summary><p>When you tap a share button, Wishora creates a link that contains your wish. When they open it, they see the surprise reveal first, then your card with its animation, music button and countdown. You can also download the card as an image and send that instead.</p></details>
+<details><summary>Where do my photos go?</summary><p>Nowhere. Photos are read by your own browser and never uploaded. That's why they appear in your preview and in downloaded images, but aren't included in shared links yet.</p></details>
+<details><summary>Can I write in Urdu, Hindi or Arabic?</summary><p>Yes. Type in any language. Right-to-left text is detected automatically, and you can choose the Urdu Nastaliq font in the Design tab.</p></details>
+<details><summary>How do I post my wish to Instagram?</summary><p>Tap the Instagram button. On phones that support it, your card opens in the share sheet so you can pick Instagram. Otherwise it's saved as an image, which you can add to your Story or send in a DM.</p></details>
+<details><summary>Is my draft saved?</summary><p>Your text and design choices are saved on this device automatically, so a refresh won't lose your work. Tap “Start over” to clear it.</p></details>
+</div></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-icon">W</span>wishora<span class="dot">.</span></a><span>Make every moment special. ♡</span><nav class="foot-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="#faq">FAQ</a></nav><small>© 2026 Wishora · Free digital wishes</small></footer>
+
+<!-- Full-screen viewer: used for “View as recipient” and when someone opens a shared wish link -->
+<div class="viewer" id="viewer" hidden>
+<div class="viewer-bar"><a class="brand small" href="./"><span class="brand-icon">W</span>wishora<span class="dot">.</span></a><div class="viewer-actions"><button type="button" class="btn secondary" id="viewerDownload">⬇ Save image</button><button type="button" class="btn ghost" id="viewerClose">✕ Back to editor</button></div></div>
+<div class="viewer-stage"><div id="viewerCard" class="preview-card big"></div></div>
+<div class="viewer-cta" id="viewerCta" hidden><span>Want to make someone smile too?</span><a class="btn primary" href="./#designer">Create your own wish — free</a></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body></html>
