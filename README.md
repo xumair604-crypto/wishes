@@ -28,3 +28,9 @@ All occasions, messages, templates, themes and stickers are in `data.js`.
 
 ## Still needs a backend
 Photos in shared links, short links, accounts and saved projects, scheduled delivery, moderation and deletion controls.
+
+## Birthday surprise page (`birthday.html`)
+A standalone, playful birthday page: floating hearts, bunting, a bunny and a cat with a cake, a Yes/No prompt (the No button runs away), a blow-out-the-candles step, then the message card.
+- Open `birthday.html` with no wish in the URL to get the **maker**: name, sender, message and colour give you a shareable link, QR code (saved as PNG) and a share button.
+- A wish lives in the URL after `#b=` (base64url JSON), so nothing is uploaded or stored. Text is inserted with `textContent` and length-limited.
+- Files: `birthday.html`, `birthday.css`, `birthday.js`, and `qrcode.js` (qrcode-generator by Kazuhiko Arase, MIT).
